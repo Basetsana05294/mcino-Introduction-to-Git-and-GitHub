@@ -14,11 +14,11 @@
 # Output:
 # simple interest = p*t*r
 
-echo "Enter the principal:"
+echo "Number Smart Not Hard:"
 read p
-echo "Enter rate of interest per year:"
+echo "$:"
 read r
-echo "Enter time period in years:"
+echo "5 years:"
 read t
 
 s=$(expr $p \* $t \* $r / 100)
